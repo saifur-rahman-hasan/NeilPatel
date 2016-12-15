@@ -1,0 +1,69 @@
+ /*
+    Created on : Dec 12, 2016.
+    Author     : S M SHAKHAWAT HOSSAIN
+*/
+/* Base CSS */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+/* Base CSS End */
+
+/* Header section start */
+.header-top {
+    background-color:  #F8F8F8;
+    padding-top: 50px;
+    height:  100vh;
+}
+.pos-rel{ position:relative; }
+
+.first-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.first-p {
+    font-size:  3em;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+.bonus-text {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.second-p {
+    color: #EC6524;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}  
+.black-bg {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 40%;
+    background-color: #000000;
+}
+
+@media screen and (max-width: 480px){
+	.black-bg { height: 30%; } .first-p {font-size: 2.5em;}
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+	.black-bg { height: 30%; }
+}
+
+@media (min-width: 768px) and (max-width: 980px){
+	.black-bg { height: 30%; }
+}
+/* Header section end */

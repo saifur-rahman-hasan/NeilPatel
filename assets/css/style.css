@@ -1,0 +1,354 @@
+ /*
+    Created on : Dec 12, 2016.
+    Author     : S M SHAKHAWAT HOSSAIN
+*/
+/* Base CSS */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+/* Base CSS End */
+
+/* Header section start */
+.header-top {
+    background-color:  #F8F8F8;
+    padding-top: 50px;
+}
+.first-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.first-p {
+    font-size:  3em;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+.bonus-text {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.second-p {
+    color: #EC6524;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}  
+.third-p {
+    color: #B5A8A7;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.black-bg {
+    background-color: #000000;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/* Header section end */
+
+/* Second section start */
+.discover {
+    background-color:  #F8F8F8;
+}
+.details-btn {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.btn {
+    padding: 2% 2%;
+    text-transform: uppercase;
+    margin-top: 35px;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn.btn-primary,
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus {
+  color: #fff;
+  background-color: #EC6524;
+  border-color: #EC6524;
+  border-width: 2px;
+  outline: none;
+  
+}
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active:hover {
+    color: #EC6524;
+    background-color: #F8F8F8;
+    border-color: #EC6524;
+    border-width: 2px;
+}
+/* Secons section end */
+
+/* Third section start */
+.section-graph { 
+    background: #fff;
+    text-align: center;
+    padding: 110px 0 50px 0; 
+}
+.title { 
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 500;
+    color: #a0a3a7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-position: center bottom;
+    padding: 0 0 25px 0;
+    margin: 0 0 20px 0; 
+}
+.border { 
+    position: relative;
+}
+.discover-text { 
+    display: block; 
+    font-size: 48px; 
+    line-height: 1.333333333333em; 
+    font-weight: 300; 
+    color: #43464b; 
+    text-transform: none; 
+    letter-spacing: 0; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.border:after { 
+    content: ''; 
+    display: block; 
+    width: 60px; height: 2px; 
+    box-sizing: inherit; 
+    background: #f16334; 
+    margin-top: 2em; 
+    margin-left: auto;
+    margin-right: auto; 
+    right: inherit; 
+    bottom: 0; 
+}
+.agenda { 
+    width: 100%; 
+    color: #a0a3a7; 
+    margin: 0 0 15px 0; 
+}
+.agenda-item { 
+    vertical-align: top; 
+    padding: 30px 20px 0 20px; 
+}
+.agenda-factor, .agenda-growth { 
+    padding-top: 0;
+}
+.agenda-item:before { 
+    content: ''; 
+    display: block;
+     width: 84px; 
+     height: 84px; 
+     border: solid #cdd0d3 1px; 
+     border-radius: 50%; 
+     background: center no-repeat; 
+     margin: 0 auto 25px auto 
+    }
+.agenda-factor:before { 
+    background-image: url(../images/target.png); 
+}
+.agenda-process:before { 
+    background-image: url(../images/process.png); 
+}
+.agenda-campaigns:before { 
+    background-image: url(../images/campaign.png); 
+}
+.agenda-growth:before { 
+    background-image: url(../images/growth.png); 
+}
+.graph img { 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+/* Third section end */
+
+/* Footer-top section start */
+.footer-top {
+    color: #FFF;
+    background-color: #F16334;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.fourth-p {
+    color: #FFF;
+    font-size:  2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn.btn-default,
+.btn.btn-default.active.focus,
+.btn.btn-default.active:focus,
+.btn.btn-default:active.focus,
+.btn.btn-default:active:focus {
+  color: #fff;
+  background-color: #EC6524;
+  border-color: #fff;
+  border-width: 2px;
+  outline: none;
+}
+.btn.btn-default.active:hover,
+.btn.btn-default:active:hover {
+    color: #EC6524;
+    background-color: #F8F8F8;
+    border-color: #F8F8F8;
+    border-width: 2px;
+}
+.ftr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ftr h5 {
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-right: 1px solid #FB793E;
+    height: 20px;
+}
+/* Footer-top section end */
+
+/* Footer-border section start */
+.footer-border {
+    background-color: #FB793E;
+    padding-top: 1px;
+}
+/* Footer-border section end */
+
+/* Footer-bottom section start */
+.footer-bottom {
+    color: #FFF;
+    background-color: #F16334;
+    padding-top: 5px;
+}
+.ftr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ftr h5 {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-right: 1px solid #FB793E;
+    height: 20px;
+}
+.top {
+    margin-top: .7em;
+}
+/* Footer-bottom section end */
+@media screen and (max-width: 480px){
+    
+.btn {
+    font-size: 1em;
+}
+/* Footer section start */
+
+.text-f {
+    text-align: center;
+}
+.ftr h5 {
+    border-right: none;
+}
+/* Footer section end */
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+  
+/* Footer section start */
+
+.text-f {
+    text-align: center;
+}
+.ftr h5 {
+    border-right: none;
+}
+/* Footer section end */  
+
+}
+@media (min-width: 768px) and (max-width: 980px){
+  
+/* Footer section start */
+
+.ftr h5 {
+    border-right: none;
+}
+/* Footer section end */  
+
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.modal-popup-banner{
+    position:absolute;
+    width:55%;top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)!important;
+    margin:0 auto}
+.modal-popup-banner .modal-header .close{
+    position:absolute;
+    top:0;
+    right:0;
+    background-color:#9cadb1!important;
+    border-bottom-left-radius:5px;
+    width:35px;
+    height:35px;
+    opacity:1;
+    margin-top:0;
+    color:#fff;
+    font-weight:400}
+.modal-popup-banner .modal-content {
+    -webkit-border-radius: 0;
+            border-radius: 0;
+}
+.modal-popup-banner .modal-header .progress{
+    height:25px;
+    width:80%;
+    margin:.8em auto;
+    border-radius:20px;
+    background-color:#EAEFF1;
+    box-shadow:none}
+.modal-popup-banner .modal-header .progress>.progress-bar{
+    line-height:25px;
+    border-radius:20px;
+     background-color:#f16334}
+.modal-popup-banner .modal-body{
+    padding:35px 10px;}
+.modal-popup-banner .modal-body .headline{
+    text-align:center;margin-bottom:.5em}
+.modal-popup-banner .modal-body .headline strong{
+    display:block;
+    font-size:1.2em;
+    margin-top:.3em;
+    margin-bottom:.8em;
+    font-family: 'Roboto Condensed', sans-serif;
+    }
+.modal-popup-banner .modal-body .modal_form{
+    width:80%;margin:0 auto}
+.modal-popup-banner .modal-body .modal_form .form-group {
+    margin-bottom: 8px;
+}
+.modal-popup-banner .modal-body .modal_form .form-control{
+    background-color:#EAEFF1;
+    border:0px;
+    height:40px;
+    border-radius:0;
+    box-shadow:none;
+    color:#797C82}
+.modal-backdrop.in{ opacity: 0.8; }
+.modal-popup-banner .modal_form .btn.disabled:hover,
+.modal-popup-banner .modal_form .btn[disabled]:hover{ background-color: #EC6524; }
+
+@media screen and (max-width:920px){.modal-popup-banner{width:90%}}
